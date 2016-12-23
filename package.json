@@ -1,5 +1,5 @@
 {
-  "name": "front-end project build tool",
+  "name": "buildTool",
   "version": "1.0.0",
   "description": "a tool to build project and test with webpack + karma + mocha + es6",
   "main": "index.js",
