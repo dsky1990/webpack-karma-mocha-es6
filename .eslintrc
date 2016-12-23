@@ -1,0 +1,33 @@
+// remove linebreak-style in style.js in node_modules\eslint-config-airbnb-base/rules
+// remove import/no-amd in imports.js in node_modules\eslint-config-airbnb-base/rules
+// remove consistent-return in best-practices.js in node_modules\eslint-config-airbnb-base/rules
+// remove linebreak-style in style.js in node_modules\eslint-config-airbnb-base/rules
+
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": true,
+      "optionalDependencies": true
+    }],
+    "prefer-arrow-callback": ["error",{
+      "allowNamedFunctions": true
+    }],
+    "comma-dangle": ["error", "never"],
+    "new-cap": ["error",{
+      "properties": false
+    }],
+    "quote-props": ["error", "as-needed", { "keywords": true, "unnecessary": false }],
+    "no-underscore-dangle": ["error", { "allow": ["_this"] }],
+    "no-unused-vars": ["error", { "varsIgnorePattern": "cb" }],
+    "max-len": ["error", 180],
+    "no-param-reassign": ["error", { "props": false }]
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "shared-node-browser": true,
+    "jquery": true
+  }
+}
