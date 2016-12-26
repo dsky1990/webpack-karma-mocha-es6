@@ -10,8 +10,8 @@ npm install
 ## create folder in file.json
 
 ```json
+// build is the dev folder, dist is release folder
 {
-  // build folder
   "build": {
     "js": "build/js",
     "sass": "build/sass",
@@ -19,7 +19,6 @@ npm install
     "css": "build/css",
     "es6": "build/es6"
   },
-  // dist folder
   "dist": {
     "js": "dist/js",
     "css": "dist/css",
