@@ -1,7 +1,6 @@
 // remove linebreak-style in style.js in node_modules\eslint-config-airbnb-base/rules
 // remove import/no-amd in imports.js in node_modules\eslint-config-airbnb-base/rules
 // remove consistent-return in best-practices.js in node_modules\eslint-config-airbnb-base/rules
-// remove linebreak-style in style.js in node_modules\eslint-config-airbnb-base/rules
 
 {
   "extends": "airbnb-base",
