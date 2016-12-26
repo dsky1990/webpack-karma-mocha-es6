@@ -27,6 +27,9 @@
     "es6": true,
     "node": true,
     "shared-node-browser": true,
-    "jquery": true
+    "jquery": true,
+    "commonjs": true,
+    "amd": true,
+    "mocha": true
   }
 }
