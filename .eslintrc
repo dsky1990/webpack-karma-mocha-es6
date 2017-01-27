@@ -20,7 +20,8 @@
     "no-underscore-dangle": ["error", { "allow": ["_this"] }],
     "no-unused-vars": ["error", { "varsIgnorePattern": "cb" }],
     "max-len": ["error", 180],
-    "no-param-reassign": ["error", { "props": false }]
+    "no-param-reassign": ["error", { "props": false }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
   },
   "env": {
     "browser": true,
