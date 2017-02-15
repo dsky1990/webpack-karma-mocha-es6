@@ -54,7 +54,8 @@ module.exports = function (config) {
     // how many browser should be started simultaneous
     concurrency: Infinity,
 
-    //jsVersion
+    // jsVersion，Karma will add a JavaScript version tag to the included JavaScript files
+    // This will only be applied to the Firefox browser
     jsVersion: 9
   });
 };
