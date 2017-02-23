@@ -1,7 +1,7 @@
 {
   "name": "buildTool",
   "version": "1.0.0",
-  "description": "a tool to build project and test with webpack + karma + mocha + es6",
+  "description": "a tool to build project with webpack + es6 and test with karma + mocha",
   "main": "index.js",
   "dependencies": {
     "bower": "^1.8.0",
