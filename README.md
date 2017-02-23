@@ -1,5 +1,5 @@
 # webpack-karma-mocha-es6
-a tool to build project and test with webpack + karma + mocha + es6
+a tool to build project with webpack + es6 and test with karma + mocha
 
 ## install
 ```
