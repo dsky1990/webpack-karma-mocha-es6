@@ -4,9 +4,8 @@
 
 // get filePath
 const fs = require('fs');
-const fileStr = (fs.readFileSync('./entry-file.js', 'utf8')).replace(/\s+/g,"").replace(';','');
-const filePath = JSON.parse(fileStr.substring(fileStr.indexOf('=')+1));
-const buildSass = filePath.buildSass;
+const filePath = JSON.parse(fs.readFileSync('./file.json', 'utf8'));
+const buildSass = filePath.build.sass;
 const buildCss = filePath.buildCss;
 const buildEs6 = filePath.buildEs6;
 const buildJs = filePath.buildJs;

@@ -13,11 +13,12 @@ npm install
 // build is the dev folder, dist is the release folder
 {
   "build": {
-    "js": "build/js",
     "sass": "build/sass",
-    "img": "build/img",
     "css": "build/css",
-    "es6": "build/es6"
+    "icon": "build/icon"
+    "img": "build/img",
+    "es6": "build/es6",
+    "js": "build/js"
   },
   "dist": {
     "js": "dist/js",
