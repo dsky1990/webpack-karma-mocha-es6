@@ -6,6 +6,7 @@
 const fs = require('fs'),
     path = require('path');
 
+//get floder path
 const filePath = JSON.parse(fs.readFileSync('./file.json', 'utf8'));
 const buildSass = filePath.build.sass,
     buildCss = filePath.build.css,
