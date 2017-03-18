@@ -40,7 +40,8 @@
     "stylelint-config-standard": "^16.0.0",
     "stylelint-webpack-plugin": "^0.4.2",
     "webpack": "^2.2.1",
-    "webpack-chunk-hash": "^0.4.0"
+    "webpack-chunk-hash": "^0.4.0",
+    "webpack-merge": "^4.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
