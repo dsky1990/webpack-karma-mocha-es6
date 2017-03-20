@@ -10,7 +10,7 @@ npm install
 ## create folder in file.json
 
 ```json
-// build is the dev folder, dist is the release folder
+// we can creat the folder by the file.json, such as:
 {
   "build": {
     "sass": "build/sass",
@@ -27,3 +27,6 @@ npm install
   }
 }
 ```
+## build step
+> the config folder contains all the config file
+> the test folder contains all the test file 
