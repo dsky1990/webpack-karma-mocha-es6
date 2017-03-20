@@ -1,7 +1,7 @@
 {
   "name": "buildTool",
-  "version": "1.0.0",
-  "description": "a tool to build project with webpack + es6 and test with karma + mocha",
+  "version": "1.0.1",
+  "description": "a tool to build vue project with webpack + es6 and test with karma + mocha",
   "main": "index.js",
   "dependencies": {
     "vue": "^2.2.4"
@@ -46,10 +46,10 @@
     "webpack-merge": "^4.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "start": "webpack-dev-server",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --port 9086",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "dev": "node config/dev.js",
+    "build": "node config/build.js"
   },
   "author": "dsky",
   "license": "MIT"
