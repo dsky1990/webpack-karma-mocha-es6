@@ -28,5 +28,5 @@ npm install
 }
 ```
 ## build step
-> the config folder contains all the config file
-> the test folder contains all the test file 
+> the config folder contains all the config file,
+> the test folder contains all the test file
