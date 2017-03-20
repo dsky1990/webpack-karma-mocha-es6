@@ -28,5 +28,24 @@ npm install
 }
 ```
 ## build step
-> the config folder contains all the config file,
-> the test folder contains all the test file
+> the config folder contains all the config file, the test folder contains all the test file
+
+### we can run the dev server like this
+
+```
+npm run dev
+```
+
+### then we can test the code
+
+```
+npm run test
+```
+
+### release code
+
+```
+npm run build
+```
+
+
