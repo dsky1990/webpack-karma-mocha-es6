@@ -56,10 +56,10 @@
     "webpack-merge": "^4.1.0"
   },
   "scripts": {
-    "unit": "node config/unit.js",
-    "e2e": "node config/e2e.js",
-    "dev": "node config/dev.js",
-    "build": "node config/build.js"
+    "unit": "node config/test/unit/karma.conf.js",
+    "e2e": "node config/test/e2e/run.js",
+    "dev": "node config/build/dev-server.js",
+    "build": "node config/build/build.js"
   },
   "author": "dsky",
   "license": "MIT"
