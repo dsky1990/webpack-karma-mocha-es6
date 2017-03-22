@@ -18,20 +18,18 @@ const fs = require('fs'),
     }),
     hotMiddleware = require('webpack-hot-middleware')(compiler, {
         log: () => {}
-    });
+    }),
+    config = require('../config');
 // get filePath
 
 //get floder path
-const filePath = JSON.parse(fs.readFileSync('./file.json', 'utf8'));
+const filePath = JSON.parse(fs.readFileSync('../file.json', 'utf8'));
 const buildSass = filePath.build.sass,
     buildCss = filePath.build.css,
     buildEs6 = filePath.build.es6,
     buildJs = filePath.build.js,
     buildIcon = filePath.build.icon,
-    buildImg = filePath.build.img,
-    distCss = filePath.dist.css,
-    distImg = filePath.dist.img,
-    distJs = filePath.dist.js;
+    buildImg = filePath.build.img;
 
 // mkdir fun
 const mkdirSync = function (path) {
@@ -60,6 +58,7 @@ mkdirpSync(buildEs6);
 mkdirpSync(buildJs);
 mkdirpSync(buildIcon);
 mkdirpSync(buildImg);
-mkdirpSync(distCss);
-mkdirpSync(distImg);
-mkdirpSync(distJs);
+
+if (!process.env.NODE_ENV) {
+    process.env.NODE_ENV = JSON.parse(config.dev.NODE_ENV)
+}
